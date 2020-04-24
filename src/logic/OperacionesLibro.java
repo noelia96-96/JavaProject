@@ -14,7 +14,7 @@ public class OperacionesLibro {
 	
 	public static int sumarVale(Libro libro) {
 		
-		int precioConVale = libro.getPrecio() - libro.getvale();
+		int precioConVale = libro.getPrecio() + libro.getvale();
 		
 	return precioConVale;
 	
