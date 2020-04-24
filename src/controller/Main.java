@@ -21,6 +21,8 @@ public class Main {
 		
 		System.out.println("El precio del libro aplicando el vale es: " + OperacionesLibro.aplicarVale(libro) + "€");
 		
+		System.out.println("El precio del libro aplicando el vale es: " + OperacionesLibro.sumarVale(libro) + "€");
+		
 		OperacionesLibro.oferta(libro);
 
 	}

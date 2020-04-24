@@ -17,6 +17,13 @@ class LibroTest {
 	}
 	
 	@Test
+	void testSumarVale() {
+		Libro l1 = new Libro ("Abril", "Ellie", "Ambar", 10, 5);
+		assertEquals(15, OperacionesLibro.sumarVale(l1));
+		
+	}
+	
+	@Test
 	void testOferta() {
 		Libro l1 = new Libro ("Abril", "Ellie", "Ambar", 12, 5);
 		assertEquals(false, OperacionesLibro.oferta(l1));

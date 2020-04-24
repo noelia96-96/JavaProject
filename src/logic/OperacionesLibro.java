@@ -12,6 +12,14 @@ public class OperacionesLibro {
 		
 	}
 	
+	public static int sumarVale(Libro libro) {
+		
+		int precioConVale = libro.getPrecio() - libro.getvale();
+		
+	return precioConVale;
+	
+}
+	
 	public static boolean oferta (Libro libro) {
 		boolean promocion = false;
 		
